@@ -13,6 +13,7 @@ import Pages from '../page/Pages.vue'
 import Cart from '../page/cart.vue'
 import Login from '../page/login.vue'
 import Reg from '../page/reg.vue'
+import Square from '../page/square.vue'
 //3. 路由配置
 let routes = [
   {path: '/home',component: Home}, //route  一条路由的配置
@@ -21,6 +22,7 @@ let routes = [
   {path: '/cart',component: Cart}, //route  一条路由的配置
   {path: '/reg',component: Reg}, //route  一条路由的配置
   {path: '/login',component: Login}, //route  一条路由的配置
+  {path: '/square',component: Square}, //route  一条路由的配置
   {path: '/',redirect:'/home'}, //route  一条路由的配置
 ]
 

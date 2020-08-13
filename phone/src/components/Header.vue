@@ -2,15 +2,15 @@
 	<div class="wrap">
 		<router-link to="/login">
 			<div class="user_icon">
-			
+				<span class="el-icon-user"></span>
 			</div>
 		</router-link>
 		<div class="search">
-			<span></span>
+			<span class="el-icon-search"></span>
 			<input type="text">
 		</div>
 		<div class="list">
-
+			<span class="el-icon-s-unfold"></span>
 		</div>
 	</div>
 
@@ -28,7 +28,7 @@
 	.wrap {
 		width: 100%;
 		height: 50px;
-		background: #004085;
+		background: white;
 		overflow: hidden;
 		display: flex;
 		justify-content: space-between;
@@ -42,8 +42,10 @@
 	.user_icon {
 		width: 40px;
 		height: 40px;
-		background: yellow;
 		border-radius: 50%;
+		text-align: center;
+		line-height: 40px;
+		font-size: 20px;
 		margin-left: 10px;
 	}
 	.search{
@@ -57,19 +59,22 @@
 		height: 30px;
 		border: 1px solid #000000;
 		margin-top:;
+		box-sizing: border-box;
+		padding-left: 20px;
 	}
 	.search span{
 		width: 15px;
 		height: 15px;
 		position: absolute;
 		left: 10px;
-		background: #00B894;
 	}
 	.list {
 		width: 30px;
 		margin-right: 10px;
 		height: 40px;
-		background-color: blueviolet;
+		text-align: center;
+		line-height: 40px;
+		font-size: 20px;
 	}
 	
 </style>

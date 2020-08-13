@@ -1,25 +1,25 @@
 <template>
 	<div class="wrap">
 		<router-link to="/home" class="li">
-			<span></span>
-			<p>home</p>
+			<span class="el-icon-house"></span>
+			<span>home</span>
 		</router-link>
-		<div class="li">
-			<span></span>
-			<p>support</p>
-		</div>
+		<router-link to="/square" class="li">
+			<span class="el-icon-chat-dot-square"></span>
+			<span>support</span>
+		</router-link>
 		<router-link to="/cart" class="li">
-			<span></span>
-			<p>cart</p>
+			<span class="el-icon-shopping-cart-2"></span>
+			<span>cart</span>
 		</router-link>
 		<router-link to="/Pages" class="li">
-			<span></span>
-			<p>pages</p>
+			<span class="el-icon-files"></span>
+			<span>pages</span>
 		</router-link>
 
 		<router-link class="li" to='/setting'>
-			<span></span>
-			<p>Settings</p>
+			<span class="el-icon-setting"></span>
+			<span>Settings</span>
 		</router-link>
 
 	</div>
@@ -49,17 +49,11 @@
 
 	.li {
 		width: 60px;
-		height: 60px;
 		display: flex;
-		justify-content: center;
 		align-items: center;
-		background: olivedrab;
 		flex-direction: column;
 	}
-
-	.li span {
-		width: 15px;
-		height: 15px;
-		background: #0062CC;
+	.li span{
+	
 	}
 </style>
